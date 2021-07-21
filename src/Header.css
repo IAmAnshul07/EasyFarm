@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+*{
+    font-family: 'Exo 2', sans-serif;
+}
+.header{
+    /* background-color:#7cba30; */
+    /* background-color:#7cba3024; */
+    background-color: rgba(0,0,0,0.75);
+    position: relative;
+    display:flex;
+    align-items:center;
+    position:sticky;
+    top:0;
+    z-index:100;
+}
+.header_logo{
+    font-family: 'Berkshire Swash', cursive;
+    width:100px;
+    /* color: #56723c; */
+    color: #699f2699;
+    text-decoration: none;
+    list-style: none;
+    font-size: 30px;
+    object-fit:contain; 
+    text-align: center;
+    margin-left:10px;
+    margin-right:40px;
+    margin-top:0px; 
+    padding: 5px 5px 5px 5px;
+}
+.header_option{
+    display:flex;
+    flex-direction:column;
+    margin-left:10px;
+    margin-right:10px;
+}
+.header_optionLineOne{
+    font-size:10px;
+    /* color: #2e3f1e; */
+    /* color: #8bc851; */
+    color: white;
+    font-weight: bolder;
+}
+.header_optionLineTwo{
+    font-size:13px;
+    /* color: #2e3f1e; */
+    color: white;
+    font-weight: bolder;
+}
+.header_search{
+    display:flex;
+    flex:1;
+}
+.header_nav{
+    display:flex;
+    justify-content:space-evenly;
+}
+.header_optionBasket{
+    display:flex;
+    align-items:center;
+}
+.header_basketCount{
+    margin-left:10px;
+    margin-right:10px;
+}
+.header_link{
+    color:white;
+    text-decoration:none;
+}
+.header_searchIcon{
+    /* background-color:#56723c; */
+    /* background-color:#699f2629; */
+    background-color: #699f2699;
+    padding:5px;
+    height:23px !important;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+}   
+.header_searchInput{
+    height:12px;
+    padding:10px;
+    border:none;
+    width:100%;
+    border: 1px solid #7cba30;
+    border-radius: 10px;
+    /* background-color: #699f26; */
+    background-color: #699f2638;
+    font-weight: bolder;
+    /* color: #56723c; */
+    color: whitesmoke;
+    font-weight: bolder;
+    outline: none;
+}
